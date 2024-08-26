@@ -1,0 +1,307 @@
+.icono-rrss:hover {
+    color: hsl(80, 74%, 30%);
+}
+
+.logo-container {
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    height: 70px;
+}
+
+.social-media-icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.social-media-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-second {
+    border-bottom: 2px;
+    box-shadow: #9acd32;
+}
+
+.btn {
+    color: white;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.btn:hover {
+    color: #9acd32;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+}
+
+.offcanvas {
+    background-color: #011f11;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 0 15px #9acd32;
+}
+
+/* Oculta el indicador de flecha del botón de colapso en los navegadores */
+.nav-item.dropdown .nav-link::after {
+    display: none;
+    color: white;
+}
+
+.collapse {
+    display: none;
+}
+
+.collapse.show {
+    display: block;
+}
+
+.collapse ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.collapse ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.collapse ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.collapse ul li a:hover {
+    background-color: #f8f9fa;
+
+}
+
+.btn-close {
+    box-shadow: 0 0 15px #9acd32;
+}
+
+.offcanvas-logo {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    height: 70px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover {
+    color: yellowgreen;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.modal-header {
+    background-color: white;
+}
+
+.modal-body {
+    background-color: white;
+}
+
+.form-label {
+    color: white;
+}
+
+.btn-label {
+    color: #ffffff;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0;
+    padding-left: 0;
+    border: none;
+    background: none;
+}
+
+.btn-label:hover {
+    color: #9acd32;
+}
+
+.modal-content .form-control:focus {
+    background-color:#011f11;
+    box-shadow: 0 0 15px #9acd32;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 0 15px #9acd32;
+}
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    border-color: #9acd32;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px #9acd32;
+}
+
+.card:hover {
+    background-color: gray;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: gray;
+    color: white;
+    padding-top: 5px;
+}
+
+.recomendado-img {
+    text-decoration: none;
+    width: 298px;
+    height: 370px;
+    object-fit: cover;
+}
+
+.card-title {
+    margin-bottom: 1px;
+    font-size: small;
+}
+
+.card-text {
+    color: #9acd32;
+}
+
+.card-desde {
+    font-size: small;
+    margin-bottom: 0px;
+    color: hsl(0, 3%, 32%);
+}
+
+
+.form-container {
+    background-color:#011f11;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 0 15px #9acd32;
+}
+
+.form-header {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-header h3 {
+    margin: 0;
+}
+
+.btn-register {
+    color: white;
+}
+
+.btn-register:hover {
+    color: #9acd32;
+}
+
+.btn-register:focus {
+    box-shadow: none;
+    border-style: none;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.form-header {
+    max-width: 100%;
+
+    height: auto;
+}
+
+
+.form-container .form-control:focus {
+    background-color: #ffffff;
+    box-shadow: 0 0 15px #9acd32;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    border-radius: 8px;
+    box-shadow: 0 0 15px #9acd32;
+    color: #9acd32
+}
+
+.info-footer {
+    color: white;
+}
+
+.info-footer:hover {
+    color: #9acd32;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #011f11;
+}
+
+.container {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.contenedor-inicio-registro {
+    margin-left: 20px;
+}
+.titulo-tarjeta{
+color: white;
+}
+.modal-content,.modal-header,.modal-body{
+    background-color: #011f11;
+}
+.btn-close-green{
+    filter: invert(1) grayscale(100%) brightness(100%) contrast(100%);
+}
